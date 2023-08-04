@@ -20,7 +20,20 @@
         body h1{
             text-decoration: underline;
         }
+         .aboutus{
+            border: 2px solid white;
+            font-weight: bold;
+            position: relative;
+            animation: mymove 1s;
+        }
+        .aboutus{animation-timing-function: linear;}
+
+        @keyframes mymove {
+        from {bottom : 100px;}
+        to {bottom: 10px;}
+        }
     </style>
+    <div class="aboutus">
     <h1>ABOUT US</h1>
     <p> At GETFIT Fitness Center, we are dedicated to helping you achieve your fitness goals and live a
         healthier, more active lifestyle. Our state-of-the-art gym is equipped with cutting-edge fitness
@@ -42,5 +55,6 @@
         Join us today and discover the energy, strength, and confidence you never knew you had. At Energize
         Fitness Center, we're here to empower you to be the best version of yourself. Your journey to greatness
         starts right here. Get ready to energize your body, mind, and soul!</p>
+    </div>
 </body>
 </html>
